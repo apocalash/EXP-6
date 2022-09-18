@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Experiment-6</title>
+        <script src="exp6.js"></script>
+        <style>
+            h1{
+            color: orange;
+            font-family: 'Trebuchet MS';
+            text-align: center;
+            }
+            hr{
+            border: 2px solid orange;
+            }
+            h2{
+            color: orange;
+            font-family: 'Trebuchet MS';
+            text-align: center;
+            }
+            #b1{
+            border:1px solid;
+            border-color: orange;
+            text-align:center;
+            color: orange;
+            background-color: black;
+            Padding: 10px 20px;
+            font-size: 16px;
+            }
+            #b1:hover{
+            font-weight: bolder;
+            font-size: 18px;
+            }
+            #fs{
+            color: orange;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body bgcolor=  rgb(255,244,79)>
+        <br>
+        <h1>JAVASCRIPT – TIMER FUNCTIONS AND OBJECTS</h1>
+        <br>
+        <hr><br>
+        <h2>DIGITAL CLOCK</h2><br>
+        <div id="clock" align="center">
+            <input id="b1" type="button" onclick="strt()" value="CLOCK" ><br><br>
+            <h2 id="clck" style="color:orange;text-align: center;font-family:Verdana, Geneva, Tahoma, sans-serif;"></h2>
+        </div><br><br><hr>
+        <div id="bgc" align="center"><br>
+            <h2>BACKGROUND COLOR CHANGER</h2><br>
+            <input id="b1" type="button" onclick="ccol()" value="Change Colour" ><br><br><br><br>
+
+        <br></div><hr><br>
+        <h2>FONT SIZE</h2><br>
+        <div id="fs" onmouseover="big()" onmouseout="small()"> Touch me to Increase Size</div><br><br><hr></div>
+        <br><h2>MOVING CAR</h2>
+        <div id="car">
+            <img id="c" src="car.png" height="90px" width="auto" style="position: relative; left: 0px;">
+        <div id="cb" align="center">
+            <input id="b1" type="button" onclick="Start()" value="START">
+            <input id="b1" type="button" onclick="Reverse()" value="REVERSE" >
+            <input id="b1" type="button" onclick="Stop()" value="STOP" >
+        </div><br><br>
+        </div><hr><br>
+        <h2>ARRAY OF OBJECT</h2><br>
+        <div align="center">
+        <input id="b1" type="button" onclick="ao()" value="STUDENT DETAILS"></div>
+        <div>
+        <h5 id="bfr" style="color: orange; text-align: center;"></h5>
+        <p id="before" style="color: orange; text-align: center;"></p>
+        </div>
+        <div>
+        <h5 id="aft" style="color: orange; text-align: center;"></h5>
+        <p id="after" style="color: orange; text-align: center;"></p>
+        </div><br><br>
+        <hr>
+        <p style="font-size:12px; color: orange; text-align: center;">Copyright © 2022 Ashish Philip. All rights reserved.</p>
+    </body>
+</html>
